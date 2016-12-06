@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cognizant Step Counter</string>
+    <string name="today">Today</string>
+    <string name="stepsDuringConference">Steps during the conference hours</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="signUp">Sign up</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/gradient"
+    tools:context="com.cognizant.pedometer.cognizantpedometer.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameTextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_cognizant_logo"
+            android:id="@+id/cognizantLogoImageView"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:text="@string/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_40"
+            android:id="@+id/todayTextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/stepsTodayTextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="80sp"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/stepsDuringConferenceTextView"
+            android:text="@string/stepsDuringConference"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        app:srcCompat="@mipmap/ic_keep_challenging"
+        android:id="@+id/keepChallengingiImageView"
+        android:layout_below="@id/linearLayout"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"/>
+</RelativeLayout>

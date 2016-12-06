@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="cognizantBlue">#50b3cf</color>
+    <color name="cognizantGreen">#6db33f</color>
+    <color name="cognizantDarkBlue">#00728f</color>
+    <color name="cognizantDarkGreen">#387c2c</color>
+    <color name="cognizantDarkGrey">#4d4d4d</color>
+    <color name="cognizantLightRed">#e1523d</color>
+</resources>
